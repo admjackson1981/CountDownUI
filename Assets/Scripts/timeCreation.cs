@@ -16,12 +16,12 @@ public class timeCreation
         get {
 
             DateTime date1 =  DateTime.Now;
-            DateTime date2 = new DateTime(2022, 9, 20, 09, 30, 00);
+            DateTime date2 = new DateTime(2022, 8, 20, 09, 30, 00);
 
             // Calculate the interval between the two dates.
             TimeSpan interval = date2 - date1;
             
-            
+          
 
             string timeString = string.Format("{0}:{1}:{2}:{3}", interval.Days, interval.Hours, interval.Minutes, interval.Seconds);
 
